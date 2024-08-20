@@ -28,10 +28,6 @@ const Wrapper = styled('div')({
   width: '100%',
 });
 
-const Image = styled('img')({
-  marginLeft: '15px',
-});
-
 const App = () => {
   return (
     <Wrapper>

@@ -15,7 +15,7 @@ const StyledContainer = styled(Container)(({ theme }) => ({
   },
 }));
 
-const StyledPaper = styled(Paper)(({ theme }) => ({
+const StyledPaper = styled(Paper)(() => ({
   padding: '10px 20px',
   border: '2px solid black',
 }));
@@ -33,11 +33,11 @@ const GridContainer = styled(Grid)(({ theme }) => ({
   },
 }));
 
-const PaddingGridItem = styled(Grid)(({ theme }) => ({
+const PaddingGridItem = styled(Grid)(() => ({
   padding: 20,
 }));
 
-const MarginButton = styled(Button)(({ theme }) => ({
+const MarginButton = styled(Button)(() => ({
   marginTop: 20,
 }));
 
