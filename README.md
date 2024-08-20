@@ -1,3 +1,7 @@
+# Realtime Chat Application
+
+![Video_Chat](https://github.com/user-attachments/assets/21b351ec-3290-417e-abde-b7a78cd31f29)
+
 ## 📋 <a name="table">Table of Contents</a>
 
 1. ⚙️ [Tech Stack](#tech-stack)
