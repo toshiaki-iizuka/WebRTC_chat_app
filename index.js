@@ -18,6 +18,7 @@ app.get('/', (_req, res) => {
 });
 
 io.on('connection', (socket) => {
+  console.log('New client connected:', socket.id);
   socket.emit('me', socket.id);
 
   socket.on('disconnect', () => {
